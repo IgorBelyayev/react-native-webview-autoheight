@@ -34,9 +34,6 @@ const injectedScript = function() {
 };
 
 export default class MyWebView extends Component {
-  state = {
-    webViewHeight: Number
-  };
 
   static defaultProps = {
       autoHeight: true,
